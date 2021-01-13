@@ -99,3 +99,27 @@ html {
     width: 100px;
     height: 100px;
 }
+
+.section-title{
+    width: 35%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    margin-bottom: 50px;
+}
+.section-title::after{
+    position: absolute;
+    content: "";
+    bottom: -5%;
+    height: 1px;
+    width: 100%;
+    background-color: #c76c67;
+}
+
+.section-title__head{
+    font-size: 3.125rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: red;
+}
