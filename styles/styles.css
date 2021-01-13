@@ -1,5 +1,10 @@
+html {
+    scroll-behavior: smooth;
+}
+
 .hero-slider{
     margin-top: 80px;
+    margin-bottom: 80px;
 }
 
 .carousel-item{
@@ -51,4 +56,46 @@
 .carousel__control:hover{
     color: #99413c;
     opacity: 1;
+}
+.category{
+    margin-bottom: 80px;
+}
+.tile{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 30px;
+    border-radius: 25px;
+    transition: 500ms;
+}
+.tile:hover{
+    cursor: pointer;
+}
+
+.tile--orange{
+    background-color: orange;
+}
+.tile--orange:hover{
+    background-color: orangered;
+}
+.tile--pink {
+    background-color: palevioletred;
+    
+}
+.tile--pink:hover{
+    background-color: purple;
+}
+.tile--blue {
+    background-color: blue;
+}
+.tile--blue:hover{
+    background-color: rgb(0, 204, 255);
+}
+
+.tile__title{
+    color: white;
+}
+.tile__img{
+    width: 100px;
+    height: 100px;
 }
