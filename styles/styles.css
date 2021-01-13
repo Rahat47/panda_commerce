@@ -1,0 +1,54 @@
+.hero-slider{
+    margin-top: 80px;
+}
+
+.carousel-item{
+    background-color: #feeae9;
+    padding: 30px 60px;
+    border-radius: 20px;
+    position: relative;
+}
+
+.slide__info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+}
+.item__title{
+    font-size: 50px;
+}
+.item__price{
+    color: red;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.item__button{
+    margin-top: 10px;
+    width: 30%;
+    z-index: 400;
+}
+
+.carousel__control{
+    position: absolute;
+    font-size: 50px;
+    font-weight: 300;
+    color: #c76c67;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 300;
+    opacity: .6;
+}
+.carousel__control--right{
+    right: 15px;
+}
+.carousel__control--left{
+    left: 15px;
+    z-index: 300;
+}
+
+.carousel__control:hover{
+    color: #99413c;
+    opacity: 1;
+}
